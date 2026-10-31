@@ -140,9 +140,9 @@ var DATA = {
       "github": "",
       "role": "System Analyst",
       "status": "Ongoing",
-      "description": "A web-based apartment management system with billing monitoring and tenant notifications.",
-      "problem": "A paper-based process caused inefficiency and lost records.",
-      "solution": "Designed the process flow and documentation for a central web system that tracks tenants, billing and payments.",
+      "description": "A Web-Based Apartment Management System with Billing Monitoring and Tenant Notification System designed to digitize rental operations, streamline billing processes, and improve communication between property managers and tenants..",
+      "problem": "Manual paper work, inefficiency, human error, lack of transparency, and limited automation in tracking rental payments, calculating utility bills, managing tenant records, and sending timely payment reminders.",
+      "solution": "By creating this Web-Based Apartment Management System that has an automated billing engine, real-time payment monitoring, an integrated tenant notification feature via SMS/Email, and a centralized dashboard for tenant and lease management to ensure fast, accurate, and transparent operations.",
       "features": [
         "Separate dashboards for administrator, landlord and tenant",
         "Billing and payment tracking with paid and overdue status",
