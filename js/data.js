@@ -7,7 +7,7 @@ var DATA = {
   "intro": "I am a passionate IT student with a strong interest in web development. I also enjoy learning about new technologies.",
   "bio": "I am a third-year Bachelor of Science in Information Technology (BSIT) student who is passionate about web development and technology. Learning new skills and solving technical problems are the things I enjoy most. By continuously improving my knowledge and gaining experience, I hope to become a highly skilled professional in the tech industry.",
   "cv": "assets/cv/John_Henric_M_Mendoza_CV.pdf",
-  "formKey": "963e8c24-6f9c-44db-b019-0b004f7a6256",
+  "formKey": "",
   "photo": "assets/images/profile.jpg",
   "facts": [
     [
@@ -117,7 +117,8 @@ var DATA = {
       "name": "Digital Safety and Security Awareness",
       "org": "Cisco Networking Academy",
       "year": "Completed 27 Aug 2026",
-      "note": "Credential ID: a3b944c3-2f60-491b-8881-6e86dc8c7ce9"
+      "note": "Credential ID: a3b944c3-2f60-491b-8881-6e86dc8c7ce9",
+      "image": "assets/images/certificates/cisco-digital-safety.jpg"
     }
   ],
   "projects": [
@@ -140,15 +141,96 @@ var DATA = {
       "github": "",
       "role": "System Analyst",
       "status": "Ongoing",
-      "description": "A Web-Based Apartment Management System with Billing Monitoring and Tenant Notification System designed to digitize rental operations, streamline billing processes, and improve communication between property managers and tenants.",
-      "problem": "Manual paper work, inefficiency, human error, lack of transparency, and limited automation in tracking rental payments, calculating utility bills, managing tenant records, and sending timely payment reminders.",
-      "solution": "By creating this Web-Based Apartment Management System that has an automated billing engine, real-time payment monitoring, an integrated tenant notification feature via SMS/Email, and a centralized dashboard for tenant and lease management to ensure fast, accurate, and transparent operations.",
+      "description": "A web-based apartment management system with billing monitoring and tenant notifications.",
+      "problem": "A paper-based process caused inefficiency and lost records.",
+      "solution": "Designed the process flow and documentation for a central web system that tracks tenants, billing and payments.",
       "features": [
         "Separate dashboards for administrator, landlord and tenant",
         "Billing and payment tracking with paid and overdue status",
         "Tenant notifications",
         "Receipt upload and review",
         "Maintenance reports"
+      ]
+    },
+    {
+      "id": "oak-and-beans-poster",
+      "name": "Oak and Beans Typography Brand Poster",
+      "category": "Graphic Design",
+      "year": 2026,
+      "tech": [
+        "Typography",
+        "Branding",
+        "Poster design"
+      ],
+      "shots": [
+        "assets/images/projects/oak-and-beans-poster.jpg"
+      ],
+      "fit": "contain",
+      "url": "",
+      "github": "",
+      "role": "Designer",
+      "status": "Completed",
+      "description": "A typography-focused brand poster for Oak and Beans, a coffee brand.",
+      "problem": "A coffee brand needed a warm, recognizable look that works mainly through type.",
+      "solution": "Paired a bold serif wordmark in a warm copper tone with a steam illustration and a clean tagline in a contrasting font.",
+      "features": [
+        "Bold serif wordmark",
+        "Warm copper color palette",
+        "Steam accent illustration",
+        "Tagline layout"
+      ]
+    },
+    {
+      "id": "pumpkin-spice-latte-design",
+      "name": "Pumpkin Spice Latte Design",
+      "category": "Graphic Design",
+      "year": 2026,
+      "tech": [
+        "Illustration",
+        "Branding"
+      ],
+      "shots": [
+        "assets/images/projects/pumpkin-spice-latte.jpg"
+      ],
+      "fit": "contain",
+      "url": "",
+      "github": "",
+      "role": "Designer",
+      "status": "Completed",
+      "description": "An illustrated pumpkin spice latte design for a coffee logo and brand.",
+      "problem": "A seasonal coffee drink needed a friendly, eye-catching illustration.",
+      "solution": "Drew a cup with whipped cream, a cinnamon stick, a branded sleeve and a pumpkin in warm autumn colors.",
+      "features": [
+        "Seasonal autumn palette",
+        "Branded coffee sleeve with bean icon",
+        "Whipped cream and cinnamon details"
+      ]
+    },
+    {
+      "id": "citrametrine-logo",
+      "name": "Citrametrine Brand Logo",
+      "category": "Graphic Design",
+      "year": 2026,
+      "tech": [
+        "Logo design",
+        "Branding"
+      ],
+      "shots": [
+        "assets/images/projects/citrametrine-badge.jpg"
+      ],
+      "fit": "contain",
+      "url": "",
+      "github": "",
+      "role": "Designer",
+      "status": "Concept",
+      "description": "My brand logo idea for an IT company named Citrametrine.",
+      "problem": "An IT company needed a memorable logo that shows technology and ideas.",
+      "solution": "Combined a rabbit, a light bulb and USB symbols inside a purple circular badge.",
+      "features": [
+        "Circular badge layout",
+        "Rabbit and light bulb mascot",
+        "USB symbols for technology",
+        "Purple and yellow color scheme"
       ]
     }
   ]

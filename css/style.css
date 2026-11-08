@@ -73,3 +73,6 @@ dd,h1,h2,h3,p,li{overflow-wrap:anywhere}
 @media (max-width:600px){body{font-size:16px}section{padding:44px 0}.wrap{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}#home .hero{padding:36px 16px}.grid{grid-template-columns:1fr}dl{grid-template-columns:1fr;gap:0}dt{margin-top:10px;font-size:.85rem}.row .btn{flex:1 1 100%;text-align:center}.filters select,.filters input{flex:1 1 100%}input,select,textarea{font-size:16px}.card{padding:18px}h2{gap:10px}.brand{font-size:1.05rem}}
 @media (max-width:360px){h1{font-size:2rem}.photo{width:110px;height:110px}}
 @media (hover:none){nav a:hover{background:none}}
+
+.thumb.fit{background:#fff}.thumb.fit img{object-fit:contain}.thumb.nat img{width:auto;max-width:100%;height:auto}
+.cert{display:block;width:100%;height:auto;margin-top:12px;border:1px solid var(--line);border-radius:6px}
