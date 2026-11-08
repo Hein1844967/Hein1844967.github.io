@@ -76,3 +76,9 @@ dd,h1,h2,h3,p,li{overflow-wrap:anywhere}
 
 .thumb.fit{background:#fff}.thumb.fit img{object-fit:contain}.thumb.nat img{width:auto;max-width:100%;height:auto}
 .cert{display:block;width:100%;height:auto;margin-top:12px;border:1px solid var(--line);border-radius:6px}
+
+dd{white-space:pre-line}
+.sname{display:flex;align-items:center;gap:10px;min-width:0}
+.ico{width:34px;height:34px;border-radius:8px;background:var(--tag);color:var(--accent);display:grid;place-items:center;flex:none}
+.ico svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.skill{align-items:center;gap:10px}
