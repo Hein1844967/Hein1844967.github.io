@@ -36,7 +36,7 @@ var DATA = {
     ],
     [
       "Experience",
-      "Civil Registrar\nBarangay Hall of Barandal, Philippines · 2024"
+      "0"
     ],
     [
       "Specialization",
