@@ -15,6 +15,10 @@ var DATA = {
       "Calamba City, Laguna, Philippines"
     ],
     [
+      "Age",
+      "20"
+    ],
+    [
       "Email",
       "jhenricm17@gmail.com"
     ],
@@ -28,7 +32,7 @@ var DATA = {
     ],
     [
       "Occupation",
-      "BSIT student"
+      "Student"
     ],
     [
       "Experience",
@@ -155,7 +159,7 @@ var DATA = {
         "assets/images/projects/my-website-portfolio.jpg"
       ],
       "captions": [
-        "Home and About sections"
+        "Home and About Sections"
       ],
       "url": "https://hein1844967.github.io/",
       "github": "https://github.com/Hein1844967/Hein1844967.github.io",
@@ -178,9 +182,9 @@ var DATA = {
       "category": "Wireframe / Prototype",
       "year": 2026,
       "tech": [
+        "Figma",
         "Wireframing",
-        "Prototyping",
-        "UI design"
+        "Prototyping"
       ],
       "shots": [
         "assets/images/projects/wireframe-home-landing-page.jpg",
@@ -189,8 +193,8 @@ var DATA = {
         "assets/images/projects/wireframe-projects.jpg"
       ],
       "captions": [
-        "Home / landing page",
-        "About me",
+        "Home / Landing Page",
+        "About Me",
         "Skills",
         "Projects"
       ],
@@ -217,9 +221,9 @@ var DATA = {
       "category": "Graphic Design",
       "year": 2026,
       "tech": [
-        "Typography",
-        "Branding",
-        "Poster design"
+        "Canva",
+        "GIMP",
+        "Typography"
       ],
       "shots": [
         "assets/images/projects/oak-and-beans-poster.jpg"
@@ -240,7 +244,7 @@ var DATA = {
         "Opening hours and shop name footer"
       ],
       "captions": [
-        "Typography brand poster"
+        "Typography Brand Poster"
       ],
       "date": "September 18, 2026"
     },
@@ -250,9 +254,9 @@ var DATA = {
       "category": "Graphic Design",
       "year": 2026,
       "tech": [
-        "Digital marketing",
-        "Branding",
-        "Illustration"
+        "Canva",
+        "GIMP",
+        "Digital marketing"
       ],
       "shots": [
         "assets/images/projects/psl-social-media-post.jpg",
@@ -262,11 +266,11 @@ var DATA = {
         "assets/images/projects/psl-banner-ad.jpg"
       ],
       "captions": [
-        "Social media post",
-        "Newsletter header",
+        "Social Media Post",
+        "Newsletter Header",
         "Logo",
-        "Landing page banner",
-        "Banner ad"
+        "Landing Page Banner",
+        "Banner Ad"
       ],
       "fit": "contain",
       "url": "",
@@ -291,8 +295,9 @@ var DATA = {
       "category": "Graphic Design",
       "year": 2026,
       "tech": [
-        "Branding",
-        "Logo design"
+        "Canva",
+        "GIMP",
+        "Branding"
       ],
       "shots": [
         "assets/images/projects/citrametrine-vertical-logo.jpg",
@@ -301,10 +306,10 @@ var DATA = {
         "assets/images/projects/citrametrine-badge-emblem.jpg"
       ],
       "captions": [
-        "Vertical logo",
+        "Vertical Logo",
         "Logo",
-        "Horizontal logo",
-        "Badge / emblem"
+        "Horizontal Logo",
+        "Badge / Emblem"
       ],
       "fit": "contain",
       "url": "",
@@ -322,6 +327,42 @@ var DATA = {
         "Consistent purple and yellow palette"
       ],
       "date": "August 31, 2026"
+    },
+    {
+      "id": "revilloza-apartment-system",
+      "name": "Revilloza Apartment Management System",
+      "category": "Information System",
+      "year": 2026,
+      "tech": [
+        "PHP",
+        "MySQL",
+        "JavaScript"
+      ],
+      "shots": [
+        "assets/images/projects/revilloza-admin-dashboard.jpg",
+        "assets/images/projects/revilloza-landlord-dashboard.jpg",
+        "assets/images/projects/revilloza-tenant-rent.jpg"
+      ],
+      "captions": [
+        "Administrator Dashboard",
+        "Landlord Dashboard",
+        "Tenant Rent Page"
+      ],
+      "url": "",
+      "github": "",
+      "role": "System Analyst",
+      "status": "Ongoing",
+      "description": "A web-based apartment management system with billing monitoring and tenant notifications.",
+      "problem": "A paper-based process caused inefficiency and lost records.",
+      "solution": "Designed the process flow and documentation for a central web system that tracks tenants, billing and payments.",
+      "features": [
+        "Separate dashboards for administrator, landlord and tenant",
+        "Billing and payment tracking with paid and overdue status",
+        "Tenant notifications",
+        "Receipt upload and review",
+        "Maintenance reports"
+      ]
     }
-  ]
+  ],
+  "analyticsId": ""
 };
