@@ -132,3 +132,20 @@ h1+.meta{margin-bottom:18px}
  .gallery.multi+.swipe{display:block}
 }
 .swipe{display:none;color:var(--muted);font-size:.85rem;margin:0 0 12px}
+
+/* ---- Phones: compact project list so more projects fit on screen ---- */
+@media (max-width:600px){
+ .filters{flex-wrap:nowrap;gap:8px}
+ .filters input{flex:1 1 0;min-width:0}
+ .filters #yr{flex:0 0 124px;min-width:0}
+ #projGrid{gap:10px}
+ .pcard{display:grid;grid-template-columns:104px 1fr;column-gap:12px;row-gap:2px;align-items:center;padding:10px;overflow:visible;position:relative;border-top:1px solid var(--line);border-left:4px solid var(--accent)}
+ .pcard>*{margin-left:0;margin-right:0}
+ .pcard>.tlink{grid-column:1;grid-row:1/span 2;margin:0}
+ .pcard .thumb{aspect-ratio:4/3;margin:0;border-radius:8px}
+ .pcard h3{grid-column:2;grid-row:1;margin:0;font-size:1.05rem;align-self:end}
+ .pcard h3+.meta{grid-column:2;grid-row:2;margin:2px 0 0;align-self:start;font-size:.85rem}
+ .pcard .desc,.pcard h3+.meta~.meta,.pcard .tags,.pcard>.row{display:none}
+ .pcard .tt::after{content:"";position:absolute;inset:0}
+ #count{margin:0 0 10px}
+}
