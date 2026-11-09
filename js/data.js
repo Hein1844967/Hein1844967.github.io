@@ -364,5 +364,5 @@ var DATA = {
       ]
     }
   ],
-  "analyticsId": ""
+  "goatcounter": ""
 };

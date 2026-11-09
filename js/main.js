@@ -68,9 +68,11 @@ fetch("https://api.web3forms.com/submit",{method:"POST",headers:{"Content-Type":
 .catch(function(){s.textContent="Network problem. Please try again or email me directly."}).then(function(){btn.disabled=false})}
 else{var to=(DATA.links.Email||"").replace("mailto:","");location.href="mailto:"+to+"?subject="+encodeURIComponent(sub)+"&body="+encodeURIComponent(msg+"\n\n"+n+" ("+m+")");s.textContent="Form service not connected yet; opening your email app instead."}});
 
-/* Analytics (optional): set DATA.analyticsId in data.js to a Google Analytics 4 ID such as G-XXXXXXXXXX */
-(function(){if(!DATA.analyticsId||!/^G-[A-Z0-9]+$/.test(DATA.analyticsId))return;
-var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+DATA.analyticsId;document.head.appendChild(s);
-window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",DATA.analyticsId,{send_page_view:false});
-function pv(){gtag("event","page_view",{page_title:document.title,page_location:location.href})}pv();window.addEventListener("hashchange",pv);
-document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/\.pdf$/i.test(h))gtag("event","cv_download",{link_url:h})})})();
+/* Analytics (optional): GoatCounter. Set "goatcounter" in data.js to your site code (the part before .goatcounter.com) */
+(function(){var code=DATA.goatcounter;if(!code||!/^[a-z0-9-]+$/i.test(code))return;
+window.goatcounter={no_onload:true,endpoint:"https://"+code+".goatcounter.com/count"};
+function view(){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:"/"+(location.hash.slice(1)||"home"),title:document.title})}
+var s=document.createElement("script");s.async=true;s.src="https://gc.zgo.at/count.js";s.onload=view;document.head.appendChild(s);
+window.addEventListener("hashchange",view);
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a||!window.goatcounter||!window.goatcounter.count)return;var h=a.getAttribute("href")||"";
+if(/\.pdf$/i.test(h))window.goatcounter.count({path:"cv-download",title:"CV download",event:true})})})();
