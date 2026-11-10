@@ -5,7 +5,7 @@ var DATA = {
   "title": "BSIT Student | Web Developer | Future IT Professional",
   "tagline": "Welcome to my Website Portfolio!",
   "intro": "I am a passionate IT student with a strong interest in web development. I also enjoy learning about new technologies.",
-  "bio": "I am a third-year Bachelor of Science in Information Technology (BSIT) student who is passionate about web development and technology. Learning new skills and solving technical problems are the things I enjoy most. By continuously improving my knowledge and gaining experience, I hope to become a highly skilled professional in the tech industry.",
+  "bio": "I am John Henric M. Mendoza, a third-year Bachelor of Science in Information Technology (BSIT) student who is passionate about web development and technology. Learning new skills and solving technical problems are the things I enjoy most. By continuously improving my knowledge and gaining experience, I hope to become a highly skilled professional in the tech industry.",
   "cv": "assets/cv/John_Henric_M_Mendoza_CV.pdf",
   "formKey": "963e8c24-6f9c-44db-b019-0b004f7a6256",
   "photo": "assets/images/profile.jpg",
